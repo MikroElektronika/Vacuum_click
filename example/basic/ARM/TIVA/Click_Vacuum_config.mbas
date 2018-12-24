@@ -1,0 +1,8 @@
+module Click_Vacuum_config
+
+include Click_Vacuum_types
+
+const
+    _VACUUM_I2C_CFG as uint32_t[1] = (_I2C_BITRATE_STANDARD_MODE)
+    
+end.
